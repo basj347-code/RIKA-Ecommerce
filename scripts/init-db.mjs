@@ -1,0 +1,3 @@
+import mongoose from 'mongoose';
+export async function initDB(){const c=await mongoose.createConnection('mongodb://127.0.0.1:27018/?directConnection=true',{serverSelectionTimeoutMS:3000}).asPromise();try{await c.db.admin().command({replSetGetStatus:1});}catch(e){if(e.code===94)await c.db.admin().command({replSetInitiate:{_id:'rikaLocal',members:[{_id:0,host:'localhost:27018'}]}});else throw e;}finally{await c.close();}const ready=await mongoose.createConnection('mongodb://127.0.0.1:27018/rika?replicaSet=rikaLocal',{serverSelectionTimeoutMS:20000}).asPromise();await ready.close();}
+if(process.argv[1]?.endsWith('init-db.mjs')){await initDB();console.log('RIKA MongoDB replica set ready on localhost:27018.');}

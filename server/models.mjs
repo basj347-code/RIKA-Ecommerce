@@ -1,0 +1,13 @@
+import mongoose from 'mongoose';
+const {Schema}=mongoose;
+const address = new Schema({name:String,line1:String,line2:String,city:String,state:String,pincode:String,phone:String},{_id:false});
+const userSchema=new Schema({name:String,email:{type:String,unique:true,required:true},passwordHash:{type:String,required:true,select:false},username:{type:String,unique:true,sparse:true},phone:{type:String,default:''},website:{type:String,default:''},company:{type:String,default:''},address,resetHash:{type:String,select:false},resetExpires:Date},{timestamps:true});
+export const User=mongoose.model('User',userSchema);
+export const Session=mongoose.model('Session',new Schema({hash:{type:String,unique:true},userId:{type:Schema.Types.ObjectId,ref:'User',index:true},expires:{type:Date,expires:0}},{timestamps:true}));
+const line=new Schema({productId:String,size:String,color:String,quantity:Number},{_id:false});
+export const Cart=mongoose.model('Cart',new Schema({userId:{type:Schema.Types.ObjectId,unique:true},items:{type:[line],default:[]},version:{type:Number,default:0}},{timestamps:true,optimisticConcurrency:true}));
+export const Wishlist=mongoose.model('Wishlist',new Schema({userId:{type:Schema.Types.ObjectId,unique:true},productIds:{type:[String],default:[]}}));
+const orderSchema=new Schema({userId:{type:Schema.Types.ObjectId,index:true},number:{type:String,unique:true},key:String,items:[{productId:String,name:String,image:String,size:String,color:String,quantity:Number,price:Number}],subtotal:Number,shipping:Number,discount:Number,total:Number,coupon:String,address,status:{type:String,default:'Placed'},payment:{type:String,default:'Not charged — demo checkout'}},{timestamps:true});
+orderSchema.index({userId:1,key:1},{unique:true});
+export const Order=mongoose.model('Order',orderSchema);
+export const Subscriber=mongoose.model('Subscriber',new Schema({email:{type:String,unique:true},createdAt:{type:Date,default:Date.now}}));

@@ -1,0 +1,131 @@
+{
+  "hero": {
+    "source": "https://images.unsplash.com/photo-1483985988355-763728e1935b",
+    "license": "Unsplash License; check image page for attribution"
+  },
+  "shirt": {
+    "source": "https://images.unsplash.com/photo-1598554747436-c9293d6a588f",
+    "license": "Unsplash License; check image page for attribution"
+  },
+  "bag": {
+    "source": "https://images.unsplash.com/photo-1548036328-c9fa89d128fa",
+    "license": "Unsplash License; check image page for attribution"
+  },
+  "men": {
+    "source": "https://images.unsplash.com/photo-1596755094514-f87e34085b2c",
+    "license": "Unsplash License; check image page for attribution"
+  },
+  "sneaker": {
+    "source": "https://images.unsplash.com/photo-1549298916-b41d501d3772",
+    "license": "Unsplash License; check image page for attribution"
+  },
+  "knit": {
+    "source": "https://images.unsplash.com/photo-1434389677669-e08b4cac3105",
+    "license": "Unsplash License; check image page for attribution"
+  },
+  "dress": {
+    "source": "https://images.unsplash.com/photo-1595777457583-95e059d581b8",
+    "license": "Unsplash License; check image page for attribution"
+  },
+  "glasses": {
+    "source": "https://images.unsplash.com/photo-1511499767150-a48a237f0083",
+    "license": "Unsplash License; check image page for attribution"
+  },
+  "tee": {
+    "source": "https://images.unsplash.com/photo-1521572163474-6864f9cf17ab",
+    "license": "Unsplash License; check image page for attribution"
+  },
+  "trouser": {
+    "source": "https://images.unsplash.com/photo-1473966968600-fa801b869a1a",
+    "license": "Unsplash License; check image page for attribution"
+  },
+  "watch": {
+    "source": "https://images.unsplash.com/photo-1524805444758-089113d48a6d",
+    "license": "Unsplash License; check image page for attribution"
+  },
+  "jacket": {
+    "source": "https://images.unsplash.com/photo-1539109136881-3be0616acf4b",
+    "license": "Unsplash License; check image page for attribution",
+    "note": "Uses the same available outerwear photograph as women.jpg; illustrative sample photography."
+  },
+  "shoe": {
+    "source": "https://images.unsplash.com/photo-1525966222134-fcfa99b8ae77",
+    "license": "Unsplash License; check image page for attribution"
+  },
+  "editorial": {
+    "source": "https://images.unsplash.com/photo-1485230895905-ec40ba36b9bc",
+    "license": "Unsplash License; check image page for attribution"
+  },
+  "women": {
+    "source": "https://images.unsplash.com/photo-1539109136881-3be0616acf4b",
+    "license": "Unsplash License; check image page for attribution"
+  },
+  "heritage-polo": {
+    "source": "Original illustrative asset generated for the RIKA demo storefront",
+    "license": "AI-generated; illustrative only, not a photographed inventory item"
+  },
+  "studio-crossbody": {
+    "source": "Original illustrative asset generated for the RIKA demo storefront",
+    "license": "AI-generated; illustrative only, not a photographed inventory item"
+  },
+  "coastal-linen": {
+    "source": "Original illustrative asset generated for the RIKA demo storefront",
+    "license": "AI-generated; illustrative only, not a photographed inventory item"
+  },
+  "sculpted-knit": {
+    "source": "Original illustrative asset generated for the RIKA demo storefront",
+    "license": "AI-generated; illustrative only, not a photographed inventory item"
+  },
+  "afterhours-dress": {
+    "source": "Original illustrative asset generated for the RIKA demo storefront",
+    "license": "AI-generated; illustrative only, not a photographed inventory item"
+  },
+  "everyday-tote": {
+    "source": "Original illustrative asset generated for the RIKA demo storefront",
+    "license": "AI-generated; illustrative only, not a photographed inventory item"
+  },
+  "sunday-canvas": {
+    "source": "Original illustrative asset generated for the RIKA demo storefront",
+    "license": "AI-generated; illustrative only, not a photographed inventory item"
+  },
+  "city-chino": {
+    "source": "Original illustrative asset generated for the RIKA demo storefront",
+    "license": "AI-generated; illustrative only, not a photographed inventory item"
+  },
+  "modern-frames": {
+    "source": "Original illustrative asset generated for the RIKA demo storefront",
+    "license": "AI-generated; illustrative only, not a photographed inventory item"
+  },
+  "weekend-jacket": {
+    "source": "Original illustrative asset generated for the RIKA demo storefront",
+    "license": "AI-generated; illustrative only, not a photographed inventory item"
+  },
+  "modern-timepiece": {
+    "source": "Original illustrative asset generated for the RIKA demo storefront",
+    "license": "AI-generated; illustrative only, not a photographed inventory item"
+  },
+  "linen-layer": {
+    "source": "Original illustrative asset generated for the RIKA demo storefront",
+    "license": "AI-generated; illustrative only, not a photographed inventory item"
+  },
+  "emerald-maxi": {
+    "source": "Original illustrative asset generated for the RIKA demo storefront",
+    "license": "AI-generated; illustrative only, not a photographed inventory item"
+  },
+  "cocoa-shirt-dress": {
+    "source": "Original illustrative asset generated for the RIKA demo storefront",
+    "license": "AI-generated; illustrative only, not a photographed inventory item"
+  },
+  "sapphire-slip": {
+    "source": "Original illustrative asset generated for the RIKA demo storefront",
+    "license": "AI-generated; illustrative only, not a photographed inventory item"
+  },
+  "rust-wrap": {
+    "source": "Original illustrative asset generated for the RIKA demo storefront",
+    "license": "AI-generated; illustrative only, not a photographed inventory item"
+  },
+  "hero-street": {
+    "source": "Original illustrative asset generated for the RIKA demo storefront",
+    "license": "AI-generated; illustrative only, not a photographed inventory item"
+  }
+}
